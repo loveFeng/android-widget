@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright (C) 2009 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+	<dimen name="list_item_width">302dip</dimen>
+	<dimen name="list_item_height">44dip</dimen>
+	<dimen name="list_item_text_size">17sp</dimen>
+	<dimen name="list_item_tag_text_size">16sp</dimen>
+	<dimen name="list_item_textinfo_maxwidth">100dp</dimen>
+	
+	<dimen name="list_item_tag_small_text_size">14sp</dimen>
+	<dimen name="list_tag_height_small">10dp</dimen>
+	<dimen name="list_tag_height_normal">21dp</dimen>
+	<dimen name="list_tag_height_text_min">40dp</dimen> 
+	<dimen name="list_item_padding">10dp</dimen>
+	<dimen name="list_item_padding_small">4dp</dimen>
+	<dimen name="list_item_margin">6dp</dimen>
+	<dimen name="list_item_height_twoline">52dp</dimen>
+	<dimen name="seekbar_min_width">220dp</dimen>
+    <dimen name="search_margin_left">5dip</dimen>
+    <dimen name="ip_title_bar_height">44dip</dimen>
+
+    <dimen name="search_view_text_min_width">160dip</dimen>
+    <dimen name="dropdownitem_text_padding_left">8dip</dimen>
+    <dimen name="dropdownitem_text_padding_right">8dip</dimen>
+</resources>

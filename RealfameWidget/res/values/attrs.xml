@@ -1,0 +1,11 @@
+<resources>
+    <declare-styleable name="SlipButton">
+        <attr name="thumb_normal" format="reference" />
+        <attr name="thumb_hight" format="reference" />
+        <attr name="on_image" format="reference" />
+        <attr name="off_image" format="reference" /> 
+        <attr name="overlayer" format="reference" />
+    </declare-styleable>
+    
+    
+</resources>

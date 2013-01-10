@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- created by rancaihe, 20121203 -->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+
+    <RelativeLayout
+        android:id="@+id/search_bar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/searchbar_bg" >
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignWithParentIfMissing="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/search_bar_cancel_button_bg"
+            android:text="@string/cancel"
+            android:textSize="15sp" />
+
+        <LinearLayout
+            android:id="@+id/search_plate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="@dimen/search_margin_left"
+            android:layout_toLeftOf="@+id/button1"
+            android:background="@drawable/searchbar_edit_bg"
+            android:orientation="horizontal" >
+
+            <EditText
+                android:id="@+id/search_src_text"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@null"
+                android:ellipsize="end"
+                android:focusableInTouchMode="true"
+                android:imeOptions="actionSearch"
+                android:inputType="text|textNoSuggestions"
+                android:minWidth="@dimen/search_view_text_min_width"
+                android:paddingLeft="@dimen/dropdownitem_text_padding_left"
+                android:paddingRight="@dimen/dropdownitem_text_padding_right"
+                android:textColor="@color/black"
+                android:singleLine="true" >
+            </EditText>
+
+            <ImageView
+                android:id="@+id/search_close_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:focusable="true"
+                android:paddingLeft="4dip"
+                android:paddingRight="4dip"
+                android:src="@drawable/sl_delete_button"
+                android:visibility="gone" />
+        </LinearLayout>
+    </RelativeLayout>
+	
+    <FrameLayout 
+        android:id="@+id/effect"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/search_bar"
+        android:visibility="gone">
+        <View
+	        android:id="@+id/black_bg"
+	        android:layout_width="fill_parent"
+	        android:layout_height="fill_parent"/>
+        
+        <View
+	        android:layout_width="fill_parent"
+	        android:layout_height="fill_parent"
+	        android:background="#ab000000"/>
+    </FrameLayout>
+     
+
+</RelativeLayout>

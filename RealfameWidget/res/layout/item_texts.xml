@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/list_item_width"
+    android:layout_height="@dimen/list_item_height">
+
+    <TextView
+        android:id="@+id/text1"
+        style="@style/ListTextNormalBold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:singleLine="true" 
+        android:drawablePadding="@dimen/list_item_padding"
+        android:layout_marginLeft="@dimen/list_item_margin"
+        android:gravity="center"/>
+    
+    <TextView
+	        android:id="@+id/text2"
+	        style="@style/ListTextBule"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentRight="true"
+	        android:layout_centerVertical="true"
+	        android:drawablePadding="@dimen/list_item_padding"
+	        android:layout_marginRight="@dimen/list_item_padding"
+	        android:singleLine="true" 
+	        android:maxWidth="@dimen/list_item_textinfo_maxwidth"/>
+	<!-- 
+    <LinearLayout
+        android:layout_width="wrap_content"
+    	android:layout_height="wrap_content" 
+    	android:layout_alignParentRight="true"
+    	android:layout_centerVertical="true"
+    	android:layout_marginRight="@dimen/list_item_padding">
+		
+        <TextView
+	        android:id="@android:id/text2"
+	        style="@style/ListTextBule"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginRight="@dimen/list_item_padding"
+	        android:singleLine="true" />
+        
+	    <ImageView
+	        android:id="@android:id/icon"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:background="@drawable/list_item_small_arrow"
+	        android:duplicateParentState="true"/>	    
+	</LinearLayout>
+	 -->
+</RelativeLayout>

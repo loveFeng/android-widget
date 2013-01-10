@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/list_item_width"
+    android:layout_height="@dimen/list_item_height">
+
+    <RelativeLayout 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+	    <ImageView
+	        android:id="@+id/icon1"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:src="@drawable/item_sound_small_icon" 
+	        android:layout_centerVertical="true"/>
+	
+	    <SeekBar
+	        android:id="@+id/progress"
+	        style="?android:attr/progressBarStyleHorizontal"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:minWidth="@dimen/seekbar_min_width"
+	        android:thumbOffset="0dip"
+	        android:layout_toRightOf="@android:id/icon1"
+	        android:layout_marginLeft="@dimen/list_item_padding"
+	        android:progressDrawable="@drawable/item_seekbar"
+	        android:thumb="@drawable/item_thumb"
+	        android:layout_centerVertical="true"/>
+	
+	    <ImageView
+	        android:id="@+id/icon2"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_toRightOf="@android:id/progress"
+	        android:layout_marginLeft="@dimen/list_item_padding"
+	        android:src="@drawable/item_sound_large_icon" 
+	        android:layout_centerVertical="true"/>
+	</RelativeLayout>
+</RelativeLayout>
