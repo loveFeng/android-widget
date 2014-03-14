@@ -1,0 +1,771 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.demo_highlights"
+    android:installLocation="auto"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="15" />
+<!-- android:name="hq.memFloat.model.MyApplication" -->
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:name="com.way.app.Application"
+        android:theme="@style/AppTheme"
+         >
+         <!-- android:name="com.dream.myqiyi.BaseApp" -->
+        <!-- android:theme="@style/AppTheme" -->
+       <activity
+            android:name=".WelcomeAcitivty"
+            android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen"
+            android:label="@string/title_activity_demomain" >
+            <intent-filter>
+                
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+       <!-- android:theme="@style/AppTheme" -->
+        <activity
+            android:name=".DEMOMainActivity"
+            android:theme="@style/Theme_menu"
+            android:label="@string/title_activity_demomain" >
+            <intent-filter>
+                <action android:name="android.intent.action.CREATE_SHORTCUT" />
+ <!--                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" /> -->
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.myapp_menusetting.DemoSettingActivity"
+            android:theme="@android:style/Theme.Light.NoTitleBar" />
+        <activity android:name=".ShowLogoActivity">
+          </activity>
+        
+       <activity android:name="com.example.demo_highlights.slidingmenu.activity.SlidingActivity"
+           android:theme="@style/AppTheme"
+           android:screenOrientation="portrait">
+                        <intent-filter>
+                <action android:name="android.intent.action.SlidingActivity" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+          </activity>
+          
+              <activity android:name="com.android.alvin.activity.TaskManager"
+                  android:theme="@style/AppTheme">
+             <intent-filter>
+                <action android:name="android.intent.action.TaskManager" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+          </activity>
+          
+         <activity android:name="com.aven.qqdemo.MainActivity">
+             <intent-filter>
+                <action android:name="android.intent.action.qqdemo" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+          </activity>
+          
+          <activity android:name="hq.memFloat.main.memFloat">
+             <intent-filter>
+                <action android:name="android.intent.action.memFloat" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+          </activity>
+          
+          <activity android:name="com.qqyumidi.shortcutdemo.AppStart"
+              android:theme="@style/AppTheme">
+             <intent-filter>
+                <action android:name="android.intent.action.shortcutdemo" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+          </activity>
+          <activity android:name="com.qqyumidi.shortcutdemo.TiebaActivity" 
+              android:theme="@style/AppTheme"/>
+          
+         <activity android:name="com.ichliebephone.AndroidPreferenceDemoII">
+             <intent-filter>
+                <action android:name="android.intent.action.AndroidPreferenceDemoII" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+          </activity>
+          <activity android:name="com.ichliebephone.Settings" />
+          
+          <activity android:name="com.example.myapp_location.LocationActivity">
+             <intent-filter>
+                <action android:name="android.intent.action.baiduLocation" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+          </activity>
+         
+          <activity android:name="com.googlecode.droidwall.MainActivity">
+             <intent-filter>
+                <action android:name="android.intent.action.droidwall" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+          </activity>
+          
+          <activity android:name="com.example.myapp_htctab.HtcTabActivity">
+             <intent-filter>
+                <action android:name="android.intent.action.htctab" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+          </activity>
+          
+          <activity android:name="com.amaker.ch07.app.MainActivity">
+             <intent-filter>
+                <action android:name="android.intent.action.aidl" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+          </activity>
+          
+         <activity android:name="com.example.myapp_autoconnecttgt.AutoConnTGTMainActivity">
+             <intent-filter>
+                <action android:name="android.intent.action.AutoConn" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+          </activity>
+          
+         <activity android:name="com.hmg.study.mainActivity"
+             android:theme="@style/Theme.Translucent">
+             <intent-filter>
+                <action android:name="android.intent.action.3dbox" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+          </activity>
+          
+         <activity android:name="com.hhj.appListDemo.AllAppList">
+             <intent-filter>
+                <action android:name="android.intent.action.AllAppList" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+          </activity>
+          
+         <activity android:name="com.ljp.laucher.MiLaucherActivity"
+             android:theme="@android:style/Theme.NoTitleBar">
+             <intent-filter>
+                <action android:name="android.intent.action.touchMove" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+          </activity>
+          
+         <activity android:name="com.example.test1.MainActivity">
+             <intent-filter>
+                <action android:name="android.intent.action.touchphoto" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+          </activity>
+          
+         <activity android:name="com.example.orderdishes.OrderDishesAct"
+             android:screenOrientation="landscape">
+             <intent-filter>
+                <action android:name="android.intent.action.landRightTab" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+          </activity>
+          
+          <activity android:name="com.tutor.update.MainAcitivity">
+             <intent-filter>
+                <action android:name="android.intent.action.updateDemo" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+          </activity>
+          
+          <activity android:name="com.ql.app.App">
+             <intent-filter>
+                <action android:name="android.intent.action.tabSwitcher" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+          </activity>
+          
+          <activity android:name="com.example.myapp_scrollview.MainActivity">
+             <intent-filter>
+                <action android:name="android.intent.action.slowScrollview" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+          </activity>
+          
+          <activity android:name="com.qin.addappwidget.MainActivity">
+             <intent-filter>
+                <action android:name="android.intent.action.addappwidget" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+          </activity>
+          
+          <activity android:name="com.example.getgeminiimsi.GetGeminiIMSIActivity">
+             <intent-filter>
+                <action android:name="android.intent.action.getgeminiimsi" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+          </activity>
+          
+          <activity android:name="com.cn.theodore.AniGridViewActivity">
+             <intent-filter>
+                <action android:name="android.intent.action.AniGridView" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+          </activity>
+          
+          <activity android:name="com.zhy.myslipbutton.MainActivity">
+             <intent-filter>
+                <action android:name="android.intent.action.iphoneSlipButton" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+          </activity>
+          
+           <activity android:name="com.touchmenotapps.test.RadialMenuActivity">
+             <intent-filter>
+                <action android:name="android.intent.action.radialMenu" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+          </activity>
+          
+           <activity android:name="com.touchmenotapps.test.TestActivity"/>
+           
+          <activity android:name="cn.com.jdsc.JdscActivity">
+             <intent-filter>
+                <action android:name="android.intent.action.jdsc" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+          </activity>
+          
+        <activity android:name="cn.com.jdsc.HomeActivity"/>
+        <activity android:name="cn.com.jdsc.CategoryActivity"/>
+        <activity android:name="cn.com.jdsc.CarActivity"/>
+        <activity android:name="cn.com.jdsc.BuyActivity"/>
+        <activity android:name="cn.com.jdsc.MoreActivity"/>
+        
+          <activity android:name="com.android.txt.TxtReaderDemoActivity">
+             <intent-filter>
+                <action android:name="android.intent.action.txtReader" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+          </activity>
+          
+          <activity android:name="com.lenovo.roll.RollActivity">
+             <intent-filter>
+                <action android:name="android.intent.action.rollPopwindow" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+          </activity>
+          
+          <activity android:name="com.demo.MainActivity">
+             <intent-filter>
+                <action android:name="android.intent.action.vp" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+          </activity>
+                    
+          <activity android:name="com.example.pulltorefresh.MainActivity">
+             <intent-filter>
+                <action android:name="android.intent.action.pulltorefresh" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+          </activity>
+          
+        <activity android:name="com.example.pulltorefresh.TestListView" >
+        </activity>
+        <activity
+            android:name="com.example.pulltorefresh.TestGridView"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+        <activity android:name="com.example.pulltorefresh.TestScrollView" >
+        </activity>
+           
+        <activity android:name="org.sunchao.Main">
+             <intent-filter>
+                <action android:name="android.intent.action.wifistudy" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+          </activity>
+          
+         <activity android:name="com.example.myapp_iphonelistview.IphoneMainActivity">
+             <intent-filter>
+                <action android:name="android.intent.action.iphonelistview" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+          </activity>
+          
+          <activity android:name="com.android.neweffect.neweffect">
+             <intent-filter>
+                <action android:name="android.intent.action.neweffect" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+          </activity>
+          
+          <activity android:name="com.androidbook.Drawing.DrawBitmap">
+             <intent-filter>
+                <action android:name="android.intent.action.DrawBitmap" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+          </activity>
+          
+        <activity android:name="com.androidbook.Drawing.DrawGradient" >
+        </activity>
+        <activity android:name="com.androidbook.Drawing.DrawShape" >
+        </activity>
+        <activity android:name="com.androidbook.Drawing.DrawText" >
+        </activity>
+        <activity android:name="com.androidbook.Drawing.DrawCustomFont" >
+        </activity>
+        
+          <activity android:name="com.androidbook.FileStreamOfConsciousness.FileStreamOfConsciousness">
+             <intent-filter>
+                <action android:name="android.intent.action.FileStreamOfConsciousness" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+          </activity>
+          
+         <activity android:name="com.androidbook.FileStreamOfConsciousness.ViewLog"></activity>
+         
+          <activity android:name="com.androidbook.fulldatabase.FullDatabaseActivity">
+             <intent-filter>
+                <action android:name="android.intent.action.FullDatabaseActivity" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+          </activity>
+          
+          <activity android:name="com.canvas.demo.MainActivity"
+              android:theme="@style/Theme.Translucent">
+             <intent-filter>
+                <action android:name="android.intent.action.canvasDemo" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+          </activity>
+          
+          <activity android:name="loveworld.listview3d.MainActivity"
+              android:theme="@style/Theme.Translucent">
+             <intent-filter>
+                <action android:name="android.intent.action.listview3d" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+          </activity>
+          
+           <activity android:name="com.example.myapp_bouncelistview.BounceListViewMainActivity">
+             <intent-filter>
+                <action android:name="android.intent.action.listviewAni" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+          </activity>
+         
+          <activity android:name="com.example.myapp_fuzzyimage.FuzzyMainActivity"
+              android:theme="@style/Theme.Translucent">
+             <intent-filter>
+                <action android:name="android.intent.action.fuzzyimage" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+          </activity>
+          
+          <activity android:name="com.example.myapp_lizi.LiZiMainActivity"
+              android:theme="@style/Theme.Translucent">
+             <intent-filter>
+                <action android:name="android.intent.action.lizi" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+          </activity>
+          
+          <activity android:name="com.example.myapp_webservise.WebServiseActivity">
+             <intent-filter>
+                <action android:name="android.intent.action.WebServiseActivity" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+          </activity>
+          
+          <activity android:name="com.androidbook.ShapeShifter.ShapeShifter">
+             <intent-filter>
+                <action android:name="android.intent.action.ShapeShifter" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+          </activity>
+          
+         <activity android:name="com.su.testpopwindow.TestPullPopWindowActivity">
+             <intent-filter>
+                <action android:name="android.intent.action.ucmenu" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+          </activity>
+          
+          		<activity
+			android:name="com.androidbook.ShapeShifter.FrameAnimationActivity"></activity>
+		<activity
+			android:name="com.androidbook.ShapeShifter.FrameAnimationActivity2"></activity>
+		<activity
+			android:name="com.androidbook.ShapeShifter.ShapeViewer"></activity>
+		<activity
+			android:name="com.androidbook.ShapeShifter.TweenActivity"></activity>
+		<activity
+			android:name="com.androidbook.ShapeShifter.TweenLayoutActivity"></activity>
+		
+		 <activity android:name="com.capricorn.example.MainActivity">
+             <intent-filter>
+                <action android:name="android.intent.action.arcmenu" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+          </activity>
+           
+		 <activity android:name="com.ljp.youku.TestYoukuActivity">
+             <intent-filter>
+                <action android:name="android.intent.action.youkumenu" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+          </activity>
+          
+		 <activity android:name="com.daya.li.link.Main">
+             <intent-filter>
+                <action android:name="android.intent.action.360clearAni" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+          </activity>
+		 
+		 <activity android:name="com.rrr.drawdialdemo.DrawDialDemoActivity">
+             <intent-filter>
+                <action android:name="android.intent.action.yibiao" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+          </activity>
+          
+		 <activity android:name="com.baidu.rocket.MainActivity"
+		     android:theme="@android:style/Theme.Translucent.NoTitleBar">
+             <intent-filter>
+                <action android:name="android.intent.action.huojian" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+          </activity>
+          
+		 <activity android:name="com.jameschen.trunPage.CurlActivity"
+		     android:screenOrientation="landscape"
+		     android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+             <intent-filter>
+                <action android:name="android.intent.action.shuangmianfanye" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+          </activity>
+          
+		 <activity android:name="com.li.light.ShanGuangDActivity"
+		     android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+             <intent-filter>
+                <action android:name="android.intent.action.light" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+          </activity>
+		 
+		 <activity android:name="com.dream.myqiyi.MainActivity">
+             <intent-filter>
+                <action android:name="android.intent.action.myqiyi" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+          </activity>
+          
+		<activity android:name="com.dream.myqiyi.account.AccountActivity" />
+        <activity android:name="com.dream.myqiyi.channel.ChannelActivity" />
+        <activity android:name="com.dream.myqiyi.search.SearchActivity" />
+        <activity android:name="com.dream.myqiyi.home.HomeActivity" />
+        <activity android:name="com.dream.myqiyi.more.MoreActivity" />
+        
+        <activity android:name="com.jfeinstein.jazzyviewpager.MainActivity">
+             <intent-filter>
+                <action android:name="android.intent.action.jazzyviewpager" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+          </activity>
+          
+        
+                <activity
+            android:name="net.micode.fileexplorer.FileExplorerTabActivity"
+            android:label="@string/tab_sd"
+            android:icon="@drawable/ic_icon_filemanager"
+            android:configChanges="screenSize|keyboardHidden"
+            android:screenOrientation="sensor"
+            android:theme="@android:style/Theme.Holo.Light"
+            android:uiOptions="splitActionBarWhenNarrow">
+            <intent-filter >
+                <action android:name="android.intent.action.CREATE_SHORTCUT" />
+                <action android:name="android.intent.action.FileExplorer" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            </intent-filter>
+            <intent-filter >
+                <action android:name="android.intent.action.PICK" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <action android:name="android.intent.action.MEDIA_MOUNTED" />
+                <action android:name="android.intent.action.MEDIA_UNMOUNTED" />
+
+                <data android:scheme="file" />
+            </intent-filter>
+            <intent-filter >
+                <action android:name="android.intent.action.GET_CONTENT" />
+
+                <category android:name="android.intent.category.OPENABLE" />
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="*/*" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name="net.micode.fileexplorer.SearchActivity"
+            android:theme="@android:style/Theme.Holo.Light" >
+            <intent-filter >
+                <action android:name="android.intent.action.SEARCH" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.app.searchable"
+                android:resource="@xml/searchable" />
+        </activity>
+
+        <activity
+            android:label="@string/menu_setting"
+            android:launchMode="singleTop"
+            android:name="net.micode.fileexplorer.FileExplorerPreferenceActivity"
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar" >
+        </activity>
+
+        <meta-data
+            android:name="android.app.default_searchable"
+            android:value="net.micode.fileexplorer.SearchActivity" />
+        
+        <activity android:name="com.example.myapp_xlistview.XListViewMainActivity">
+             <intent-filter>
+                <action android:name="android.intent.action.XListView" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+          </activity>
+        
+        
+          <activity
+              android:label="一键锁屏"
+              android:icon="@drawable/one_key_lock_screen"
+            android:name="com.feng.onekeylockscreen.LockActivity" 
+            android:theme="@android:style/Theme.NoDisplay">
+            <intent-filter>
+                <action android:name="android.intent.action.CREATE_SHORTCUT" />
+                <action android:name="android.intent.action.oneKeyLock" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name="com.demo.GlowPadViewActivity">
+             <intent-filter>
+                <action android:name="android.intent.action.GlowPadViewActivity" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+          </activity>
+          
+        <activity android:name="com.example.myapp_kaixinmenu.KaiXinMenuMainActivity">
+             <intent-filter>
+                <action android:name="android.intent.action.KaiXinMenuMainActivity" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+          </activity>
+          
+        <activity android:name="com.VertexVerveInc.Games.MinesweeperGame">
+             <intent-filter>
+                <action android:name="android.intent.action.game_saolei" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+          </activity>
+          
+        <activity android:name="com.krislq.floating2.MainActivity">
+             <intent-filter>
+                <action android:name="android.intent.action.lockScreenSettings" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+          </activity>
+          
+         <activity android:name="com.example.sexangleview.MainActivity">
+             <intent-filter>
+                <action android:name="android.intent.action.sexangleview" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+          </activity>
+          
+         <activity android:name="com.way.newversion.MainActivity">
+             <intent-filter>
+                <action android:name="android.intent.action.directiona" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+          </activity>
+
+           <activity
+            android:name="com.way.weather.MainActivity"
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar" 
+            android:configChanges="locale|keyboardHidden|orientation"
+            
+            android:screenOrientation="portrait" >
+             <!-- android:alwaysRetainTaskState="true" android:launchMode="singleTop" -->
+            <intent-filter>
+                <action android:name="android.intent.action.moji" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.way.weather.SelectCtiyActivity"
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar" 
+            android:configChanges="locale|keyboardHidden|orientation"
+
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustPan" >
+        </activity>
+        <!--           android:alwaysRetainTaskState="true"  android:launchMode="singleTop" -->
+         
+         
+        <service android:name="net.micode.fileexplorer.FTPServerService" />
+		 
+<!-- ==============================================  service  ================================================================ -->
+                <service android:name="com.way.weather.WeatherUpdateService" >
+        </service>
+        <service
+            android:name="com.baidu.location.f"
+            android:permission="android.permission.BAIDU_LOCATION_SERVICE"
+            android:enabled="true"
+            android:process=":remote" >
+        </service>
+        
+        
+        <service android:name="com.realfame.service.FloatService"/>
+        
+        <service android:name="com.baidu.rocket.RocketService" />
+        
+        <service android:name="com.realfame.mifilog.log.LogService"/>
+          
+        <service android:name="com.amaker.ch07.app.MyRemoteService">
+        	<intent-filter>
+        		<action android:name="com.amaker.ch07.app.action.MY_REMOTE_SERVICE"/>
+        	</intent-filter>
+        </service>
+          
+         <service android:name="hq.memFloat.service.FloatService" android:enabled="true"
+			android:exported="true" />
+         
+         
+         
+         
+         <receiver android:name="com.feng.onekeylockscreen.Dar"
+        			android:permission="android.permission.BIND_DEVICE_ADMIN">
+
+        	<meta-data android:name="android.app.device_admin"
+                       android:resource="@xml/device_admin" />
+
+        	<intent-filter>
+        		<action android:name="android.app.action.DEVICE_ADMIN_ENABLED"/>
+        	</intent-filter>
+        </receiver>
+         
+        <receiver android:name="com.googlecode.droidwall.BootBroadcast">
+	    	<intent-filter><action android:name="android.intent.action.BOOT_COMPLETED"></action></intent-filter>
+		</receiver>
+        <receiver android:name="com.googlecode.droidwall.StatusWidget">
+            <meta-data android:name="android.appwidget.provider" android:resource="@xml/onoff_widget" />
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+                <action android:name="com.googlecode.droidwall.intent.action.STATUS_CHANGED"/>
+                <action android:name="com.googlecode.droidwall.intent.action.TOGGLE_REQUEST"/>
+            </intent-filter>
+        </receiver>
+         
+        <!-- 配置窗口小部件的Receiver -->
+		<receiver android:name="com.qin.addappwidget.MyAppWidgetProvider">
+			<meta-data android:name="android.appwidget.provider"
+				android:resource="@xml/widget_provider_info"></meta-data>
+            <intent-filter>
+				<action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+				<action android:name="com.qin.action.CHANGE_IMAGE" />
+			</intent-filter>
+		</receiver>
+		
+		
+		        <receiver
+            android:name="com.way.weather.WeatherWidget"
+            android:label="@string/biz_widget_4_2" >
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+                <action android:name="android.intent.action.USER_PRESENT" />
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="com.way.weather.WeatherWidget.TEXTINFO_LEFT_HOTAREA_ACTION" />
+                <action android:name="com.way.weather.WeatherWidget.WEATHERICON_HOTAREA_ACTION" />
+                <action android:name="com.way.weather.WeatherWidget.TEXTINFO_RIGHT_HOTAREA_ACTION" />
+                <action android:name="com.way.weather.WeatherWidget.TIME_LEFT_HOTAREA_ACTION" />
+                <action android:name="com.way.weather.WeatherWidget.TIME_RIGHT_HOTAREA_ACTION" />
+                <!--
+                <action android:name="android.intent.action.TIME_SET" />
+                <action android:name="android.intent.action.DATE_CHANGED" />
+                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+                -->
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/weather_widget_4x2" />
+        </receiver>
+		
+		<provider
+            android:name="com.realfame.mifi.provider.MiFiContentProvider"
+            android:authorities="com.realfame.provider.MifiProvider"
+            android:exported="true" />
+        
+    </application>
+    
+        <!-- 打开Camera的权限 -->
+    <uses-permission android:name="android.permission.CAMERA" />
+	<uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.autofocus" />
+    <!-- 开启闪光灯权限 -->
+    <uses-permission android:name="android.permission.FLASHLIGHT" />
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD" />
+    <!-- ======================Start============================= -->
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:resizeable="true"
+        android:smallScreens="true" />
+    
+        <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_LOGS" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.BROADCAST_STICKY" />
+    
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INSTALL_PACKAGES" />
+    <uses-permission android:name="android.permission.DELETE_PACKAGES" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    
+    <uses-permission android:name="android.permission.GET_TASKS"/>
+    
+   	<uses-permission android:name="android.permission.CHANGE_NETWORK_STATE"/>
+    
+    <uses-permission android:name="android.permission.PROCESS_OUTGOING_CALLS"/> 
+    
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+	<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+	<uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>  
+	<uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/> 
+	<uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    
+    <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" />
+    <uses-permission android:name="com.android.launcher.permission.UNINSTALL_SHORTCUT" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.RESTART_PACKAGES"/>
+    <uses-permission android:name="android.permission.KILL_BACKGROUND_PROCESSES"/>
+    
+    <uses-permission android:name="android.permission.VIBRATE" /><!-- com.ljp.laucher.MiLaucherActivity -->
+</manifest>

@@ -1,0 +1,33 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+    <ImageView
+        android:visibility="invisible"
+        android:id="@+id/iv_bottom"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:src="@drawable/desktop_smoke_m" />
+    
+    <ImageView
+        android:id="@+id/iv_top"
+        android:visibility="invisible"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/iv_bottom"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/desktop_smoke_t" />
+    
+    <ImageView 
+        android:id="@+id/iv_rocket"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+           android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/desktop_rocket_launch_2"
+        />
+
+</RelativeLayout>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/popup_view_cont"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/popmenu_bg"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/menu"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#dd000000"
+        android:gravity="center" >
+
+        <TextView
+            android:id="@+id/tv_main"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="常用"
+            android:textColor="#ffffffff" />
+
+        <TextView
+            android:id="@+id/tv_utils"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="工具"
+            android:textColor="#ffffffff" />
+
+        <TextView
+            android:id="@+id/tv_set"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="设置"
+            android:textColor="#ffffffff" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/layout_anim"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#eeff8c00" >
+
+        <ImageView
+            android:id="@+id/iv_cursor"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="matrix"
+            android:src="@drawable/img_cursor" />
+    </RelativeLayout>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewPagerw"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:cacheColorHint="@android:color/transparent"
+        android:divider="@android:color/transparent"
+        android:listSelector="@android:color/transparent"
+        android:scrollbars="none" >
+    </android.support.v4.view.ViewPager>
+
+</LinearLayout>

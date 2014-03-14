@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="32.0dip"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@id/title_name"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/locker_setting_title_padding_left"
+        android:textColor="@color/desk_setting_title_color"
+        android:textSize="@dimen/locker_setting_title_text_default_size"
+        android:text="@string/locker_setting_routine" />
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/desk_setting_gree_line" />
+
+</RelativeLayout>

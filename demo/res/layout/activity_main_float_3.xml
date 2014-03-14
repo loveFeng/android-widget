@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/desk_setting_bg_color"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="46.0dip"
+        android:layout_marginBottom="8.0dip"
+        android:background="@drawable/title"
+        android:gravity="center_vertical"
+        android:paddingLeft="15.0dip"
+        android:text="@string/app_name"
+        android:textColor="#ff81c51d"
+        android:textSize="20.0dip" />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:paddingLeft="@dimen/locker_setting_view_padding"
+            android:paddingRight="@dimen/locker_setting_view_padding" >
+
+            <include
+                android:id="@id/locker_setting_general"
+                layout="@layout/locker_setting_title_view_float" />
+
+            <include
+                android:id="@id/start_lock_screen"
+                layout="@layout/my_checkbox_float" />
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/home_list_line" />
+
+            <include
+                android:id="@id/send_shortcut"
+                layout="@layout/my_preference_summary_float" />
+
+            <ImageView
+                android:id="@id/after_short_cut"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/home_list_line" />
+
+            <include
+                android:id="@id/use_suspend_icon"
+                layout="@layout/my_checkbox_float" />
+
+            <ImageView
+                android:id="@id/after_suspend_icon"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/home_list_line" />
+
+            <include
+                android:id="@id/boot_start"
+                layout="@layout/my_checkbox_float" />
+            
+           <ImageView
+                android:id="@id/after_suspend_icon"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/home_list_line" />
+
+ <!--            <include
+                android:id="@id/about"
+                layout="@layout/locker_setting_title_view" />
+
+            <include
+                android:id="@id/unstall"
+                layout="@layout/my_preference_summary" />
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/home_list_line" />
+
+            <include
+                android:id="@id/for_help"
+                layout="@layout/my_preference_summary" />
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/home_list_line" />
+
+            <include
+                android:id="@id/feedback_key"
+                layout="@layout/my_preference_summary" /> -->
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

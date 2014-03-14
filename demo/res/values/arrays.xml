@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Used in DEMOMainActivity.java -->
+    <string-array name="demo_names">
+        <!-- <item>双向滑动菜单</item> --><!-- 1 -->
+        <item>1.任务管理器</item><!-- 2 -->
+        <item>2.桌面悬浮内存状况</item>
+        <item>3.发送桌面快捷方式</item>
+        <item>4.仿设置preferenceActivity</item>
+        <item>5.仿htc拖动tab</item>
+        <item>6.仿360跨屏拖动</item>
+        <item>7.仿launcher添加桌面快捷方式</item>
+        <item>8.获取手机imsi</item><!-- 9 -->
+        <item>9.GridView拖动排序</item><!-- 10 -->
+        <item>10.仿iphone SlipButton</item><!-- 11 -->
+        <item>11.圆形菜单</item><!-- 12 -->
+        <item>12.仿京东商城界面</item><!-- 13 -->
+        <item>13.读取资源raw、asserts中文件</item><!-- 14 -->
+        <item>14.PopupWindow</item><!-- 15 -->
+        <item>15.ViewPager</item><!-- 16 -->
+        <item>16.上下拉刷新</item><!-- 17 -->
+        <item>17.wifi学习</item><!-- 18 -->
+        <item>18.弹性listview</item><!-- 19 -->
+        <item>19.仿oppo效果</item><!-- 20 -->
+        <item>20.DrawBitmap</item><!-- 21 -->
+        <item>21.文件读写</item><!-- 22 -->
+        <item>22.数据库操作</item><!-- 23 -->
+        <item>23.扇形特效</item><!-- 24 -->
+        <item>24.3D Listview</item><!-- 25 -->
+        <item>25.Listview顺序动画</item><!-- 26 -->
+        <item>26.模糊化图片</item><!-- 27 -->
+        <item>27.粒子爆炸效果</item><!-- 28 -->
+        <item>28.ShapeShifter</item><!-- 29 -->
+        <item>29.arc menu</item><!-- 30 -->
+        <item>30.仿UC menu</item><!-- 31 -->
+        <item>31.仿youku menu</item><!-- 32 -->
+        <item>32.仿360一键清理动画</item><!-- 33 -->
+        <item>33.仪表盘效果</item><!-- 34 -->
+        <item>34.小火箭效果</item><!-- 35 -->
+        <item>35.双面翻页效果</item><!-- 36 -->
+        <item>36.手电筒</item><!-- 37 -->
+        <item>37.仿奇异UI</item><!-- 38 -->
+        <item>38.fragment切换动画</item><!-- 39 -->
+        <item>39.文件管理</item><!-- 40 -->
+        <item>40.弹性listview+上拉刷新</item><!-- 41 -->
+        <item>41.一键锁屏</item><!-- 42 -->
+        <item>42.GlowPadView</item><!-- 43 -->
+        <item>43.开心网菜单</item><!-- 44 -->
+        <item>44.扫雷游戏</item><!-- 45 -->
+        <item>45.一键锁屏设置</item><!-- 46 -->
+        <item>46.多点触控缩放图片</item>
+        <item>47.横向右侧tab</item>
+        <item>48.TabSwitcher</item>
+        <item>49.SlowScrollView</item>
+        <item>50.3d旋转箱子</item>
+        <item>51.应用列表切换特效</item>
+        <item>52.aidl实例</item>
+        <item>53.自动连接wifi(MD5)</item>
+        <item>54.webservice获得天气信息</item>
+        <item>55.百度接口定位经纬度</item>
+        <item>56.软件下载更新</item>
+        <item>57.开源流量防火墙(root可用)</item>
+        <item>58.ViewPageGalleryGridViewEXlistView(全效需联网)</item>
+        <item>59.六边形自由布局</item>
+        <item>60.网易垂直viewpage欢迎界面</item>
+        <item>61.高仿墨迹天气</item>
+    </string-array>
+    
+        <!-- Used in DEMOMainActivity.java -->
+    <string-array name="demo_intents">
+        <!-- <item>android.intent.action.SlidingActivity</item> --><!-- 1 -->
+        <item>android.intent.action.TaskManager</item>
+        <item>android.intent.action.memFloat</item>
+        <item>android.intent.action.shortcutdemo</item>
+        <item>android.intent.action.AndroidPreferenceDemoII</item>
+        <item>android.intent.action.htctab</item>
+        <item>android.intent.action.touchMove</item>
+        <item>android.intent.action.addappwidget</item>
+        <item>android.intent.action.getgeminiimsi</item><!-- 9 -->
+        <item>android.intent.action.AniGridView</item><!-- 10 -->
+        <item>android.intent.action.iphoneSlipButton</item><!-- 11 -->
+        <item>android.intent.action.radialMenu</item><!-- 12 -->
+        <item>android.intent.action.jdsc</item><!-- 13 -->
+        <item>android.intent.action.txtReader</item><!-- 14 -->
+        <item>android.intent.action.rollPopwindow</item><!-- 15 -->
+        <item>android.intent.action.vp</item><!-- 16 -->
+        <item>android.intent.action.pulltorefresh</item><!-- 17 -->
+        <item>android.intent.action.wifistudy</item><!-- 18 -->
+        <item>android.intent.action.iphonelistview</item><!-- 19 -->
+        <item>android.intent.action.neweffect</item><!-- 20 -->
+        <item>android.intent.action.DrawBitmap</item><!-- 21 -->
+        <item>android.intent.action.FileStreamOfConsciousness</item><!-- 22 -->
+        <item>android.intent.action.FullDatabaseActivity</item><!-- 23 -->
+        <item>android.intent.action.canvasDemo</item><!-- 24 -->
+        <item>android.intent.action.listview3d</item><!-- 25 -->
+        <item>android.intent.action.listviewAni</item><!-- 26 -->
+        <item>android.intent.action.fuzzyimage</item><!-- 27 -->
+        <item>android.intent.action.lizi</item><!-- 28 -->
+        <item>android.intent.action.ShapeShifter</item><!-- 29 -->
+        <item>android.intent.action.arcmenu</item><!-- 30 -->
+        <item>android.intent.action.ucmenu</item><!-- 31 -->
+        <item>android.intent.action.youkumenu</item><!-- 32 -->
+        <item>android.intent.action.360clearAni</item><!-- 33 -->
+        <item>android.intent.action.yibiao</item><!-- 34 -->
+        <item>android.intent.action.huojian</item><!-- 35 -->
+        <item>android.intent.action.shuangmianfanye</item><!-- 36 -->
+        <item>android.intent.action.light</item><!-- 37 -->
+        <item>android.intent.action.myqiyi</item><!-- 38 -->
+        <item>android.intent.action.jazzyviewpager</item><!-- 39 -->
+        <item>android.intent.action.FileExplorer</item><!-- 40  -->
+        <item>android.intent.action.XListView</item><!-- 41 -->
+        <item>android.intent.action.oneKeyLock</item><!-- 42 -->
+        <item>android.intent.action.GlowPadViewActivity</item><!-- 43 -->
+        <item>android.intent.action.KaiXinMenuMainActivity</item><!-- 44 -->
+        <item>android.intent.action.game_saolei</item><!-- 45 -->
+        <item>android.intent.action.lockScreenSettings</item><!-- 46 -->
+        <item>android.intent.action.touchphoto</item>
+        <item>android.intent.action.landRightTab</item>
+        <item>android.intent.action.tabSwitcher</item>
+        <item>android.intent.action.slowScrollview</item>
+        <item>android.intent.action.3dbox</item>
+        <item>android.intent.action.AllAppList</item>
+        <item>android.intent.action.aidl</item>
+        <item>android.intent.action.AutoConn</item>
+        <item>android.intent.action.WebServiseActivity</item>
+        <item>android.intent.action.baiduLocation</item>
+        <item>android.intent.action.updateDemo</item>
+        <item>android.intent.action.droidwall</item>
+        <item>android.intent.action.qqdemo</item>
+        <item>android.intent.action.sexangleview</item><!-- 59 -->
+        <item>android.intent.action.directiona</item><!-- 60 -->
+        <item>android.intent.action.moji</item><!-- 61 -->
+        
+    </string-array>
+    
+    
+    <!-- Used in TaskManager.java -->
+    <string-array name="operates">
+        <item>结束</item>
+        <item>排除</item>
+        <item>取消排除</item>
+        <item>卸载</item>
+    </string-array>
+    
+        <!-- Used in TestFragment.java -->
+    <string-array name="dota">
+        <item>Dota</item>
+        <item>近卫</item>
+        <item>天灾</item>
+        <item>智力英雄</item>
+        <item>力量英雄</item>
+        <item>敏捷英雄</item>
+        <item>智力英雄</item>
+        <item>力量英雄</item>
+        <item>敏捷英雄</item>
+        <item>蓝猫</item>
+        <item>风行</item>
+        <item>蓝胖</item>
+        <item>流浪剑客</item>
+        <item>山岭巨人</item>
+        <item>撼地神牛</item>
+        <item>敌法师</item>
+        <item>火枪</item>
+        <item>白虎</item>
+        <item>痛苦女王</item>
+        <item>蝙蝠骑士</item>
+        <item>痛苦之源</item>
+        <item>末日使者</item>
+        <item>屠夫</item>
+        <item>斧王</item>
+        <item>影魔</item>
+        <item>灵魂守卫</item>
+        <item>幽鬼</item>
+    </string-array>
+    
+        <!-- 系统设置界面需要要到的数组 Used in preferencesii.xml-->
+	<string-array name="auto_update_frequency_entry">
+		<item>10分钟</item>
+		<item>30分钟</item>
+		<item>1小时</item>
+		<item>12小时</item>
+		<item>24小时</item>	
+	</string-array>
+	<string-array name="auto_update_frequency_value">
+		<item>10</item>
+		<item>30</item>
+		<item>60</item>
+		<item>720</item>
+		<item>1440</item>	
+	</string-array>
+	
+		<string-array name="htc_tab_val">
+		<item>月</item>
+		<item>日</item>
+		<item>日程</item>
+		<item>周</item>
+	</string-array>
+	
+		    <string-array name="items">
+　　                <item>-ex_1</item>
+　　                <item>-ex_2</item>
+　　                <item>-ex_3</item>
+　　                <item>-ex_4</item>
+　　                <item>-ex_5</item>
+　　    </string-array>
+
+	<string-array name="tabswitcher">
+        <item>游戏</item>
+        <item>应用</item>
+        <item>娱乐</item>
+        <item>娱乐</item>
+    </string-array>
+    
+		    <string-array name="jazzy_effects">
+        <item>Standard</item>
+        <item>Tablet</item>
+        <item>CubeIn</item>
+        <item>CubeOut</item>
+        <item>FlipVertical</item>
+        <item>FlipHorizontal</item>
+        <item>ZoomIn</item>
+        <item>RotateUp</item>
+        <item>RotateDown</item>
+        <item>Accordion</item>
+    </string-array>
+    <string-array name="jazzy_effects_ch">
+        <item>经典模式</item>
+        <item>淡入淡出</item>
+        <item>立方进入</item>
+        <item>立方退出</item>
+        <item>垂直翻页</item>
+        <item>水平翻页</item>
+        <item>缩放进入</item>
+        <item>向上旋转</item>
+        <item>向下旋转</item>
+        <item>折叠进入</item>
+    </string-array>
+    
+        <array name="snooze_dismiss_drawables">
+        <item>@drawable/ic_item_google</item>
+        <item>@drawable/ic_item_open</item>
+        <item>@drawable/ic_item_camera</item>
+        <item>@null</item>
+
+    </array>
+    
+    <array name="snooze_dismiss_descriptions">
+        <item>dismiss</item>
+        <item>@null</item>
+        <item>snooze</item>
+        <item>@null</item>
+    </array>
+    <array name="snooze_dismiss_direction_descriptions">
+        <item>right</item>
+        <item>@null</item>
+        <item>left</item>
+        <item>@null</item>
+    </array>
+    
+</resources>

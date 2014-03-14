@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/head_layout"
+        android:padding="5dip"
+        android:background="#fff" >
+
+        <Button
+            android:id="@+id/showLeft"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:text="ShowLeft" />
+
+        <Button
+            android:id="@+id/showRight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_gravity="right"
+            android:text="ShowRight" />
+        
+    </RelativeLayout>
+     <LinearLayout 
+        android:id="@+id/viewRound"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_texture"
+>
+        <!--         android:background="@drawable/shape_bg" -->
+        <ImageView 
+            android:src="@drawable/shadow_up"
+            android:layout_width="match_parent"
+            android:layout_height="10dip"/>
+         
+        <com.example.demo_highlights.slidingmenu.fragment.TabSwitcher
+        android:id="@+id/switcher"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/shape_bg_dark"
+        android:layout_width="fill_parent"
+        android:layout_height="50dip"
+        ></com.example.demo_highlights.slidingmenu.fragment.TabSwitcher>
+        
+        </LinearLayout>
+    <android.support.v4.view.ViewPager
+        android:id="@+id/pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/head_layout"
+        android:layout_above="@id/viewRound"
+        android:background="#B847FF" >
+    </android.support.v4.view.ViewPager>
+    
+<!--     <com.jfeinstein.jazzyviewpager.JazzyViewPager
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/jazzy_pager"
+            android:layout_below="@id/head_layout"
+        android:layout_above="@id/switcher"
+        android:background="#B847FF"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" /> -->
+    
+
+
+</RelativeLayout>

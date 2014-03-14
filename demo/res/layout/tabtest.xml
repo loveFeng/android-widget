@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TabHost
+        android:id="@+id/tabHost"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1" >
+
+        <!-- 水平方向的Tab -->
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+             >
+
+            <!-- Tab标签控件 注意ID的方式 -->
+
+            <TabWidget
+                android:id="@android:id/tabs"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignRight= "@android:id/tabcontent"  
+                android:layout_weight="0" />
+
+            <!-- Tab 内容控件 注意ID的方式  android:layout_alignParentLeft="true" -->
+
+            <FrameLayout
+                android:id="@android:id/tabcontent"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+               
+                android:layout_weight="1" >
+
+                <!-- 使用垂直与水平ScrollView -->
+
+                <HorizontalScrollView
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:fillViewport="true" >
+
+                    <LinearLayout
+                        android:id="@+id/id_tab_view1"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:orientation="horizontal" >
+						<TextView 
+						    android:layout_width="match_parent"
+						    android:layout_height="wrap_content"
+						    android:text="00001"
+						    />
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal|center_vertical"
+                            android:src="@drawable/ic_launcher" />
+                    </LinearLayout>
+                </HorizontalScrollView>
+
+                <HorizontalScrollView
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:fillViewport="true" >
+
+                    <LinearLayout
+                        android:id="@+id/id_tab_view2"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:orientation="horizontal" >
+						<TextView 
+						    android:layout_width="wrap_content"
+						    android:layout_height="wrap_content"
+						    android:text="00002"
+						    />
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal|center_vertical"
+                            android:src="@drawable/ic_launcher" />
+                    </LinearLayout>
+                </HorizontalScrollView>
+
+                <HorizontalScrollView
+                    android:id="@+id/id_tab_view3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:fillViewport="true" >
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:orientation="horizontal" >
+						<TextView 
+						    android:layout_width="wrap_content"
+						    android:layout_height="wrap_content"
+						    android:text="00003"
+						    />
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal|center_vertical"
+                            android:src="@drawable/ic_launcher" />
+                    </LinearLayout>
+                </HorizontalScrollView>
+
+                <HorizontalScrollView
+                    android:id="@+id/id_tab_view4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:fillViewport="true" >
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:orientation="horizontal" >
+					<TextView 
+						    android:layout_width="wrap_content"
+						    android:layout_height="wrap_content"
+						    android:text="00004"
+						    />
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal|center_vertical"
+                            android:src="@drawable/ic_launcher" />
+                    </LinearLayout>
+                </HorizontalScrollView>
+            </FrameLayout>
+        </RelativeLayout>
+    </TabHost>
+
+</LinearLayout>

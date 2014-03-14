@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <item name="selected_view" type="id"/>
+    <item name="gd_segmented_bar" type="id"/>
+    <item name="gd_segmented_content_view" type="id"/>
+    <item name="gd_action_bar" type="id"/>
+    <item name="gd_action_bar_host" type="id"/>
+    <item name="gd_action_bar_content_view" type="id"/>
+    <item type="id" name="scrollview" />
+    
+        <item type="id" name="locker_setting_general">false</item>
+    <item type="id" name="start_lock_screen">false</item>
+    <item type="id" name="send_shortcut">false</item>
+    <item type="id" name="after_short_cut">false</item>
+    <item type="id" name="use_suspend_icon">false</item>
+    <item type="id" name="after_suspend_icon">false</item>
+    <item type="id" name="boot_start">false</item>
+    <item type="id" name="about">false</item>
+    <item type="id" name="unstall">false</item>
+    <item type="id" name="for_help">false</item>
+    <item type="id" name="feedback_key">false</item>
+    <item type="id" name="alertdialog_title">false</item>
+    <item type="id" name="alertdialog_text">false</item>
+    <item type="id" name="sure_report">false</item>
+    <item type="id" name="cancel_report">false</item>
+    <item type="id" name="title_name">false</item>
+    <item type="id" name="linelayout">false</item>
+    <item type="id" name="preference_title">false</item>
+    <item type="id" name="preference_summary">false</item>
+    <item type="id" name="checkbox_img">false</item>
+</resources>

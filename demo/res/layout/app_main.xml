@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TabHost xmlns:android="http://schemas.android.com/apk/res/android"
+   android:id="@android:id/tabhost"
+   android:layout_width="fill_parent"
+   android:layout_height="fill_parent"
+>
+<!--    android:background="@android:color/background_dark" -->
+   <LinearLayout 
+  	  android:orientation="vertical"
+  	  android:layout_width="fill_parent"
+   	  android:layout_height="wrap_content">
+      <TabWidget
+         android:id="@android:id/tabs"
+         android:layout_width="fill_parent"
+         android:layout_height="fill_parent"/>
+			<FrameLayout android:id="@android:id/tabcontent"
+				android:layout_width="fill_parent"
+				android:layout_height="fill_parent">
+    
+<include android:id="@+id/app_layout" layout="@layout/app_list_layout"/>
+
+<com.android.alvin.activity.SystemListView
+	android:id="@+id/system_layout"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+/>   
+
+<com.android.alvin.activity.InstallLayout
+	android:id="@+id/install_layout"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+/>   
+    
+</FrameLayout>
+	</LinearLayout>
+</TabHost>

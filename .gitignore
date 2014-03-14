@@ -1,0 +1,11 @@
+target
+.classpath
+.project
+.settings
+bin
+gen
+*.swp
+*.log
+*.patch
+*.diff
+Thumbs.db

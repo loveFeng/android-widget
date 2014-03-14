@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/main_layout"
+    android:background="#000000"
+    >
+    <com.example.demo_highlights.MyScrollLayout
+       xmlns:android="http://schemas.android.com/apk/res/android"    
+	  android:id="@+id/main_myScroll"    
+	  android:layout_width="fill_parent"    
+	  android:layout_height="fill_parent"
+	  android:visibility="visible"
+	  >
+      <RelativeLayout  android:background="@drawable/w1"    
+	  android:layout_width="fill_parent"    
+	  android:layout_height="fill_parent"
+	  >
+      </RelativeLayout>
+      <RelativeLayout  android:background="@drawable/w2"    
+	  	android:layout_width="fill_parent"    
+	  	android:layout_height="fill_parent"
+	  	>
+      </RelativeLayout>
+      <RelativeLayout  android:background="@drawable/w3"    
+	  android:layout_width="fill_parent"    
+	  android:layout_height="fill_parent"
+	  />
+      <RelativeLayout  android:background="@drawable/w4"    
+	  android:layout_width="fill_parent"    
+	  android:layout_height="fill_parent"
+	  />
+      <RelativeLayout  android:background="@drawable/w5"    
+	  android:layout_width="fill_parent"    
+	  android:layout_height="fill_parent">
+          <Button
+              android:id="@+id/startBtn"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_alignParentBottom="true"
+              android:layout_centerHorizontal="true"
+              android:layout_marginBottom="98dp"
+              android:text="开始神马之旅"
+              android:textSize="18sp"
+              android:textColor="@color/TextColor"
+              android:background="@drawable/button_bg"
+              android:layout_marginLeft="8dp"
+			  android:layout_marginRight="8dp"
+			  android:layout_gravity="center_vertical"
+              />
+      </RelativeLayout>
+    </com.example.demo_highlights.MyScrollLayout>
+    <LinearLayout 
+    	android:orientation="horizontal" 
+    	android:id="@+id/main_point" 
+    	android:layout_width="wrap_content" 
+    	android:layout_height="wrap_content" 
+    	android:layout_marginBottom="24.0dip" 
+    	android:layout_alignParentBottom="true" 
+    	android:layout_centerHorizontal="true"
+    	android:visibility="visible">
+        <ImageView android:clickable="true"  android:padding="5.0dip" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/page_indicator_bg" />
+        <ImageView android:clickable="true"  android:padding="5.0dip"  android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/page_indicator_bg" />
+        <ImageView android:clickable="true"  android:padding="5.0dip"  android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/page_indicator_bg" />
+        <ImageView android:clickable="true"  android:padding="5.0dip"  android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/page_indicator_bg" />
+        <ImageView android:clickable="true"  android:padding="5.0dip"  android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/page_indicator_bg" />
+    </LinearLayout>
+</RelativeLayout>

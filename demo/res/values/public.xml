@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <public type="drawable" name="row_setting_selector" id="0x7f020007" />
+    <public type="drawable" name="checkbox_off" id="0x7f020000" />
+    <public type="drawable" name="checkbox_on" id="0x7f020001" />
+    <!-- <public type="drawable" name="desk_setting_gree_line" id="0x7f020002" /> -->
+    <!-- <public type="drawable" name="golocker" id="0x7f020003" /> -->
+    <public type="drawable" name="home_list_line" id="0x7f020004" />
+    <public type="drawable" name="icon" id="0x7f020005" />
+    <!-- <public type="drawable" name="preference_bg" id="0x7f020006" /> -->
+    <public type="drawable" name="suspended" id="0x7f020008" />
+    <public type="drawable" name="title" id="0x7f020009" />
+    <!-- <public type="drawable" name="title_press" id="0x7f02000a" /> -->
+    <!-- <public type="drawable" name="toucher_icon" id="0x7f02000b" /> -->
+    <!-- <public type="layout" name="activity_main_float" id="0x7f030000" /> -->
+    <!-- <public type="layout" name="layout_crash_float" id="0x7f030001" /> -->
+    <public type="layout" name="locker_setting_title_view_float" id="0x7f030002" />
+    <public type="layout" name="my_checkbox_float" id="0x7f030003" />
+    <public type="layout" name="my_preference_summary_float" id="0x7f030004" />
+<!--     <public type="xml" name="lock_screen_admin" id="0x7f040000" />
+    <public type="raw" name="ua_number" id="0x7f050000" /> -->
+    <public type="color" name="title_color" id="0x7f060000" />
+    <public type="color" name="desk_setting_bg_color" id="0x7f060001" />
+    <public type="color" name="desk_setting_title_color" id="0x7f060002" />
+    <public type="dimen" name="padding_small" id="0x7f070000" />
+    <public type="dimen" name="padding_medium" id="0x7f070001" />
+    <public type="dimen" name="padding_large" id="0x7f070002" />
+    <public type="dimen" name="locker_setting_view_padding" id="0x7f070003" />
+    <public type="dimen" name="locker_setting_title_padding_left" id="0x7f070004" />
+    <public type="dimen" name="locker_setting_item_padding_left" id="0x7f070005" />
+    <public type="dimen" name="locker_setting_item_padding_right" id="0x7f070006" />
+    <public type="dimen" name="locker_setting_title_text_default_size" id="0x7f070007" />
+    <public type="dimen" name="locker_setting_item_title_text_default_size" id="0x7f070008" />
+    <public type="string" name="app_name" id="0x7f080000" />
+    <public type="string" name="hello_world" id="0x7f080001" />
+    <public type="string" name="menu_settings" id="0x7f080002" />
+<!--     <public type="string" name="title_activity_main" id="0x7f080003" />
+    <public type="string" name="onekey_lock_prompt" id="0x7f080004" />
+    <public type="string" name="onekey_lock_error_shut_off" id="0x7f080005" />
+    <public type="string" name="onekey_lock_error_active_again" id="0x7f080006" />
+    <public type="string" name="shortcut_name" id="0x7f080007" />
+    <public type="string" name="start_lock_screen" id="0x7f080008" />
+    <public type="string" name="boot_start" id="0x7f080009" />
+    <public type="string" name="for_help" id="0x7f08000a" />
+    <public type="string" name="for_help_detail" id="0x7f08000b" />
+    <public type="string" name="unstall" id="0x7f08000c" />
+    <public type="string" name="there_is_lock_screen" id="0x7f08000d" />
+    <public type="string" name="long_press_to_desk" id="0x7f08000e" />
+    <public type="string" name="unstallfailed" id="0x7f08000f" />
+    <public type="string" name="send_shortcut" id="0x7f080010" />
+    <public type="string" name="use_suspend_icon" id="0x7f080011" /> -->
+    <public type="string" name="feedback" id="0x7f080012" />
+<!--     <public type="string" name="crash_notif_ticker_text" id="0x7f080013" />
+    <public type="string" name="crash_notif_title" id="0x7f080014" />
+    <public type="string" name="crash_notif_text" id="0x7f080015" />
+    <public type="string" name="crash_dialog_title" id="0x7f080016" />
+    <public type="string" name="crash_dialog_text" id="0x7f080017" />
+    <public type="string" name="crash_yes" id="0x7f080018" />
+    <public type="string" name="crash_no" id="0x7f080019" />
+    <public type="string" name="crash_subject" id="0x7f08001a" />
+    <public type="string" name="locker_setting_routine" id="0x7f08001b" />
+    <public type="string" name="about" id="0x7f08001c" /> -->
+<!--     <public type="string" name="next" id="0x7f08001d" />
+    <public type="string" name="server_begin_download" id="0x7f08001e" />
+    <public type="string" name="server_download_finish" id="0x7f08001f" />
+    <public type="string" name="server_download_fail" id="0x7f080020" />
+    <public type="string" name="server_downloading" id="0x7f080021" />
+    <public type="string" name="server_download_file_name" id="0x7f080022" />
+    <public type="string" name="show_golocker_content" id="0x7f080023" />
+    <public type="string" name="show_golocker_title" id="0x7f080024" />
+    <public type="string" name="server_download_to_toucher" id="0x7f080025" />
+    <public type="string" name="show_toucher_content" id="0x7f080026" /> -->
+    <public type="style" name="AppTheme" id="0x7f090000" />
+    <public type="id" name="locker_setting_general" id="0x7f0a0000" />
+    <public type="id" name="start_lock_screen" id="0x7f0a0001" />
+    <public type="id" name="send_shortcut" id="0x7f0a0002" />
+    <public type="id" name="after_short_cut" id="0x7f0a0003" />
+    <public type="id" name="use_suspend_icon" id="0x7f0a0004" />
+    <public type="id" name="after_suspend_icon" id="0x7f0a0005" />
+    <public type="id" name="boot_start" id="0x7f0a0006" />
+    <public type="id" name="about" id="0x7f0a0007" />
+    <public type="id" name="unstall" id="0x7f0a0008" />
+    <public type="id" name="for_help" id="0x7f0a0009" />
+    <public type="id" name="feedback_key" id="0x7f0a000a" />
+    <public type="id" name="alertdialog_title" id="0x7f0a000b" />
+    <public type="id" name="alertdialog_text" id="0x7f0a000c" />
+    <public type="id" name="sure_report" id="0x7f0a000d" />
+    <public type="id" name="cancel_report" id="0x7f0a000e" />
+    <public type="id" name="title_name" id="0x7f0a000f" />
+    <public type="id" name="linelayout" id="0x7f0a0010" />
+    <public type="id" name="preference_title" id="0x7f0a0011" />
+    <public type="id" name="preference_summary" id="0x7f0a0012" />
+    <public type="id" name="checkbox_img" id="0x7f0a0013" />
+</resources>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+
+	<Button android:id="@+id/bt_addShortcut" android:layout_width="fill_parent"
+	    android:layout_marginTop="10px"  android:textColor="#C71585"
+		android:layout_height="wrap_content" android:text="add AppWidget" />
+
+   <!--  此LinearLayout用来作为容器装放所有快捷方式(包括应用程序)  -->	 
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:id="@+id/linearLayout" android:orientation="vertical"
+		android:layout_width="fill_parent" android:layout_height="fill_parent">
+	</LinearLayout>
+  	
+</LinearLayout>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--从屏幕右边偏离2%位置开始进入，到达终点后有超出在返回终点的动态效果  -->
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+<translate 
+    android:duration="1000"
+    android:fromXDelta="102%p"
+    android:interpolator="@android:anim/accelerate_decelerate_interpolator"
+    android:startOffset="200"
+    android:toXDelta="0%p" />
+
+    <scale 
+        android:duration="500"
+        android:pivotX="50%p"
+        android:pivotY="50%p"
+        android:fromXScale="100%p"
+        android:fromYScale="100%p"
+        android:toXScale="90%p"
+        android:toYScale="90%p"
+        android:interpolator="@android:anim/accelerate_decelerate_interpolator"
+        />
+
+    <scale 
+        android:duration="1000"
+        android:pivotX="50%p"
+        android:pivotY="50%p"
+        android:fromXScale="90%p"
+        android:fromYScale="90%p"
+        android:toXScale="100%p"
+        android:toYScale="100%p"
+        android:interpolator="@android:anim/accelerate_decelerate_interpolator"
+        />
+    
+
+</set>
